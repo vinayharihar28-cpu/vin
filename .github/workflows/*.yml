@@ -8,8 +8,8 @@ jobs:
       - name: say-hello
         run: echo "Hello"
 
-  greetagain:
+  lister:
     runs-on: ubuntu-latest
     steps:
-      - name: say-hello-again
-        run: echo "Hello again"
+      - name: list-files
+        run: ls
