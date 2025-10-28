@@ -1,0 +1,12 @@
+name: Greeter
+on: [push]
+jobs:
+  greetings:
+    runs-on:ubuntu-latest
+    steps:
+      name: say-hello
+      run: echo "hello"
+
+
+      greetagain:
+      runs-on: ubuntu-latest
